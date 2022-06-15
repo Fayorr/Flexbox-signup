@@ -20,19 +20,18 @@ body > main{
     margin: auto;
     background-color: #331C48;
     width: 88%;
-    height: 80vh;
+    height: 90vh;
     text-align: center;
 }
 .main{
-height: 30%;
-padding: 2rem;
+padding-top: 1rem;
 }
 .main h1{
     font-family: 'Carter One', cursive;
 }
-/* .main p{
-
-} */
+.form{
+    padding: .5rem;
+}
 .form form{
     display: flex;
     flex-direction: column;
