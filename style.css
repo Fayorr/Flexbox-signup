@@ -75,6 +75,7 @@ span a:hover{
     body > main{
         max-width: 33.5rem;
         height: 32.5rem;
+        padding: 2rem;
       
     }
     .main h1 {
