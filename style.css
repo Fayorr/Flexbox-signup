@@ -19,22 +19,27 @@ body > main{
     align-items: center;
     margin: auto;
     background-color: #331C48;
-    width: 80%;
+    width: 88%;
     height: 80vh;
     text-align: center;
-    align-content: center;
+}
+.main{
+height: 30%;
+padding: 2rem;
 }
 .main h1{
     font-family: 'Carter One', cursive;
 }
+/* .main p{
+
+} */
 .form form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 1rem;
-    /* background-color: yellow; */
     height: 15rem;
-    width: 22rem; 
+    width: 27rem; 
 }
 input[type=button]{
     background-color: #5C96C3;
@@ -44,12 +49,13 @@ input[type=button]{
 }
  .form input{
     padding: 1rem;
-
 } 
+
 span a{
     color: #5C96C3;
     text-decoration: none;
     cursor: pointer;
+    padding:.5rem
 }
 span a:hover{
     color: rgb(237, 54, 98);
@@ -59,4 +65,18 @@ span a:hover{
     background-color: rgb(237, 54, 98);
     border: 1px solid rgb(237, 54, 98);
     transition: all 0.1s ease-in-out;
+}
+.signin{
+    padding: .5rem;
+    font-size: .85rem;
+}
+@media only screen and (min-width: 42em){
+    body > main{
+        max-width: 33.5rem;
+        height: 32.5rem;
+      
+    }
+    .main h1 {
+          font-size: 2.5rem;
+        }
 }
